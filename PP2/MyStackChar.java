@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 
 public class MyStackChar implements MyStackInterface<Character>  {
-    ArrayList<Character>  stack = new ArrayList<Character>();
+    private ArrayList<Character>  stack = new ArrayList<Character>();
 
     public void push(Character item){ stack.add(item);}
 
@@ -16,5 +16,8 @@ public class MyStackChar implements MyStackInterface<Character>  {
     //get lenght
     public int size(){ return stack.size();};
 
+    public ArrayList<Character> getStack() {
+        return stack;
+    }
     
 }
