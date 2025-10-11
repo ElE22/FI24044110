@@ -1,7 +1,6 @@
 public class Revert {
 
     public static void main(String[] args) {
-      System.out.println("Hello World!");
       FileHandler fHandler = new FileHandler("./","input.txt", "output.txt");
       MyStackChar stack = fHandler.readFile();
       if ( stack != null) {
@@ -13,6 +12,7 @@ public class Revert {
            
           }
           fHandler.closeFileWriter();
+          System.out.println("Archivo revertido correctamente.");
         } catch (Exception e) {
           System.err.printf("Error procesando el archivo: %s%n", e.getMessage());
         }
