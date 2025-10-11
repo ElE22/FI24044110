@@ -9,7 +9,7 @@ public interface MyStackInterface <Type> {
     //get last item of array
     Type peek();
     //validation if it's empty
-    boolean empyt();
+    boolean empty();
     //get lenght
     int size();
 }
