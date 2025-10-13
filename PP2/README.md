@@ -17,7 +17,7 @@ Este programa lee el contenido de un archivo de texto llamado **`input.txt`**, i
 
 ---
 
-## ▶️ Cómo ejecutar el programa
+## Cómo ejecutar el programa
 
 1. Asegúrate de tener en la **misma carpeta del programa** un archivo llamado **`input.txt`**, que contenga el texto que deseas invertir.
 
