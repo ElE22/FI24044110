@@ -28,11 +28,11 @@ public class TheStack<Type> implements TheStackInterface<Type> {
         return _stack.peek();
     }
 
-    public boolean empty() {
+    public Boolean empty() {
         return _stack.isEmpty();
     }
 
-    public int size() {
+    public Integer size() {
         return _stack.size();
     }
 
