@@ -57,3 +57,8 @@ public class Numbers {
         }
     }
 }
+
+// Se adjunta las paginas donde se basa la logica para poder soplucionar, implementar y actualizar el codigo:
+//https://math.stackexchange.com/questions/509266/show-that-f2n-fn12-fn-12
+//https://stackoverflow.com/questions/22086101/fibonacci-in-python-explain-this-code#:~:text=4%20Answers,14.4k6%2048%2068
+//https://math.stackexchange.com/questions/749873/generalizations-of-the-golden-and-silver-ratios-and-their-significance
