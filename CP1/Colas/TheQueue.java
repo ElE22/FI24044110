@@ -16,10 +16,14 @@ public class TheQueue<Type> implements TheQueueInterface<Type> {
     }
 
     public Type dequeue() {
+        //https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Deque.html
+        //https://www.geeksforgeeks.org/java/deque-interface-java-example/
         return _queue.poll();
     }
 
     public Type getFront() {
+        //https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Deque.html
+        //https://www.geeksforgeeks.org/java/deque-interface-java-example/
         return _queue.peek();
     }
 
