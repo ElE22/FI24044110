@@ -1,6 +1,7 @@
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
+import java.util.Random;
 
 public class TheQueue<Type> implements TheQueueInterface<Type> {
 
@@ -15,11 +16,11 @@ public class TheQueue<Type> implements TheQueueInterface<Type> {
     }
 
     public Type dequeue() {
-        return null;
+        return _queue.poll();
     }
 
     public Type getFront() {
-        return null;
+        return _queue.peek();
     }
 
     public boolean isEmpty() {
@@ -33,6 +34,13 @@ public class TheQueue<Type> implements TheQueueInterface<Type> {
     public String[] getCodons() {
         var size = _queue.size();
         String[] codons = new String[size / 3];
+        for (int i = 0; i < codons.length; i++) {
+            StringBuilder codon = new StringBuilder();
+            for (int j = 0; j < 3; j++) {
+                codon.append(_queue.poll());
+            }
+            codons[i] = codon.toString();
+        }
         return codons;
     }
 
